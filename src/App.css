@@ -1,0 +1,141 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #43555a;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-task-input {
+  width: 96.8%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-task-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #556cd6;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #4051b5;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8297cb;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.task-item button {
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.task-item button:hover {
+  color: #ccc;
+}
+
+.delete-button {
+  color: #ff6347;
+}
+
+.header {
+  text-align: center;
+  padding: 16px;
+  background-color: #f0f0f0;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.todo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-list li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list li:last-child {
+  border-bottom: none;
+}
+
+.todo-list li span {
+  font-weight: bold;
+}
+
+.todo-list li button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.todo-list li button:hover {
+  color: #999;
+}
+
+.edit-task-input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.update-button,
+.cancel-button {
+  padding: 5px 10px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: white;
+}
